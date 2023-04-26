@@ -1,7 +1,7 @@
 import styles from "./Hero.module.css"
 
 const Hero = () => {
-    return (  );
+    return ( <section className={styles.heroSection}></section> );
 }
  
 export default Hero;

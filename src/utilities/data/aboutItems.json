@@ -1,0 +1,15 @@
+[
+  {
+    "img": "../../utilities/images/Vector1.jpg",
+    "title": "Best Services",
+    "text": "Nullam senectus porttitor in eget. Eget rutrum leo interdum."
+  },{
+    "img": "/Users/aleksandr/git_hub_projects/the-box/src/utilities/images/icon1.png",
+    "title": "Best Teams",
+    "text": "Cursus semper tellus volutpat aliquet lacus."
+  },{
+    "img": "/Users/aleksandr/git_hub_projects/the-box/src/utilities/images/icon2.png",
+    "title": "Best Designs",
+    "text": "Ultricies at ipsum nunc, tristique nam lectus."
+  }
+]

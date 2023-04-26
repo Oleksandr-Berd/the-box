@@ -1,4 +1,4 @@
-import navLinks from "../../utilities/navLinks.json";
+import navLinks from "../../utilities/data/navLinks.json";
 import styles from "./NavBar.module.css"
 
 const NavBar = () => {
