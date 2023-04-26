@@ -1,0 +1,16 @@
+.navList{
+    display: flex;
+    align-items: center;
+     margin: 22px 82px;
+}
+
+.navItem{
+    font-size: 13.17px;
+    font-weight: 400;
+    line-height: 1.17;
+    font-family: "Work_Sans";
+}
+
+.navItem:not(:last-child){
+    margin-right: 36.59px;
+}

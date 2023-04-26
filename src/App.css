@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #14171F;
+}
+
+@font-face {
+  font-family: "Work_Sans";
+  src: local("Work_Sans"),
+    url(./utilities/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
+}

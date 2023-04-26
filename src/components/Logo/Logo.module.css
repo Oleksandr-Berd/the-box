@@ -1,0 +1,19 @@
+.logoCon{
+    display: flex;
+    align-items: center;
+    margin-left: 82px;
+    margin-top: 12px;
+}
+
+.logo{
+    margin-right: 10.21px;
+}
+
+.logoText{
+    font-family: "Work_Sans";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 21.95px;
+    margin: 0;
+    color: #2947A9;
+}
