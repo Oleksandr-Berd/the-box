@@ -1,7 +1,7 @@
 import styles from "./Layout.module.css"
 
 const Layout = ({ children }) => {
-  return <div className={styles.layout}>{children}</div>;
+  return <main className={styles.layout}>{children}</main>;
 };
  
 export default Layout;
