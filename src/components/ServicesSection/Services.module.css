@@ -1,0 +1,51 @@
+.servicesSection {
+padding-top: 44px;
+padding-bottom: 76px;
+padding-right: 216px;
+padding-left: 216px;
+
+background-color: #f6f8f7;
+}
+
+.servicesTitle{
+    margin-bottom: 36px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.servicesList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  justify-content: center;
+  gap: 98px;
+}
+
+.servicesItem{
+padding-top: 38px;
+padding-bottom: 38px;
+padding-right: 80px;
+padding-left: 80px;
+
+    background-color: #fff;
+    color: #2947A9;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.servicesItem:nth-child(2n){
+    background-color: #2947A9;
+    color: #fff;
+}
+
+
+
+.servicesItemText::before{
+    content: url(../../utilities/images/Rectangle\ 18.png);
+    display: block;
+    margin-bottom: 20px;
+}
+

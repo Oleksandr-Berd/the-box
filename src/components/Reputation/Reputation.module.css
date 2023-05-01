@@ -1,0 +1,56 @@
+.reputationSect{
+    padding-top: 60px;
+    padding-bottom: 84px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.reputationList{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reputationItem{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px 20px 40px;
+gap: 18px;
+
+
+width: 292px;
+
+background: #FFFFFF;
+
+border: 1.4px solid #E0E3EB;
+border-radius: 4px;
+
+text-align: left;
+}
+
+.reputationItem:not(:last-child){
+margin-right: 66px;
+
+}
+
+.reputationTitle{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #292E3D;
+    line-height: 1.17;
+}
+
+.reputationItemTitle{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #3D445C;
+}
+
+.reputationItemText{
+    font-size: 16px;
+    color: #858EAD;
+    line-height: 1.19;
+}
