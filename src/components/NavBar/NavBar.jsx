@@ -7,7 +7,7 @@ const NavBar = () => {
       <ul className={styles.navList}>
         {navLinks.map(({ href, name }) => (
           <li key={name} className={styles.navItem}>
-            <a href={href}>{name}</a>
+            <a href={href} className={styles.navItemLink}>{name}</a>
           </li>
         ))}
       </ul>

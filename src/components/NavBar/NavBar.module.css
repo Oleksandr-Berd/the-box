@@ -12,3 +12,9 @@
 .navItem:not(:last-child){
     margin-right: 36.59px;
 }
+
+.navItemLink:hover{
+    color: #2196f3;
+
+    transition: color 250ms linear;
+}

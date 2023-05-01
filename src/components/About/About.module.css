@@ -1,0 +1,58 @@
+.aboutSect {
+  position: relative;
+
+  display: flex;
+  padding-left: 114px;
+  padding-top: 74px;
+  padding-bottom: 202px;
+}
+
+.aboutImg {
+  border-radius: 2px;
+}
+
+.aboutCon {
+  position: absolute;
+  transform: translateX(158%) translateY(15%);
+  max-width: 488px;
+
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 348px;
+
+  background-color: #2947A9;
+  color: #fff;
+  text-align-last: left;
+}
+
+.aboutTitle {
+  margin-bottom: 37px;
+
+  font-size: 37px;
+}
+
+.aboutText {
+  margin-bottom: 20px;
+}
+
+.secondPar {
+  margin-bottom: 74px;
+}
+
+.aboutBtn {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  background-color: #fff;
+  color: #2947A9;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.17;
+  border: 2px solid #2947a9;
+  border-radius: 6px;
+}

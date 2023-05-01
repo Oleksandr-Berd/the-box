@@ -2,7 +2,8 @@ import './App.css';
 import Layout from './components/Layout/Layout';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-import About from './components/Reputation/Reputation';
+import Reputation from "./components/Reputation/Reputation";
+import About from './components/About/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Layout>
         <Header />
         <Hero />
+        <Reputation />
         <About/>
       </Layout>
     </div>
