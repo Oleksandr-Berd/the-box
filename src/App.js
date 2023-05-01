@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import Reputation from "./components/Reputation/Reputation";
 import About from './components/About/About';
 import Services from './components/ServicesSection/Services';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Hero />
         <Reputation />
         <About />
-        <Services/>
+        <Services />
+        <Experience/>
       </Layout>
     </div>
   );
