@@ -97,7 +97,7 @@ width: 280px;
 
 .experienceItemText{
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     
     font-size: 24px;
     color: #667299;
@@ -106,7 +106,6 @@ width: 280px;
 .experienceItemText::before{
     content: url(../../utilities/images/Rectangle\ 19.png);
     display: inline-flex;
-    align-items:end;
     margin-right: 12px;
 }
 
