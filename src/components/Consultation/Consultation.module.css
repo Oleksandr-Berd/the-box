@@ -1,38 +1,57 @@
-.consSection{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-padding-top: 100px;
-padding-bottom: 100px;
+.consSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
-    background-image: url(../../utilities/images/unsplash_MP0bgaS_d1c.jpg);
-    background-size: cover;
-      color: #fff;
+  background-image: url(../../utilities/images/unsplash_MP0bgaS_d1c.jpg);
+  background-size: cover;
+  color: #fff;
 }
 
-.constTitle{
-margin-bottom: 30px;
+.constTitle {
+  margin-bottom: 30px;
 
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
 }
 
-.contactCon{
+.contactCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.consText {
+  font-size: 24px;
+  line-height: 1.17;
+  margin-right: 8px;
+}
+
+.constLink {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.17;
+  text-decoration: underline;
+}
+
+.btnCon{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    align-items: center;
 }
 
-.consText{
-    font-size: 24px;
-    line-height: 1.17;
-    margin-right: 8px;
-}
+.consBtn {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
 
-.constLink{
-    color: #fff;
-     font-size: 24px;
-    line-height: 1.17;
-    text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
 }

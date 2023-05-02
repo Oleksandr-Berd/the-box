@@ -14,7 +14,9 @@ const Consultation = () => {
             </a>
           </div>
         </div>
-        <button className={styles.consBtn}>Get your consultation</button>
+        <div className={styles.btnCon}>
+          <button className={styles.consBtn}>Get your consultation</button>
+        </div>
       </section>
     );
 }
