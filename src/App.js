@@ -1,4 +1,5 @@
 import './App.css';
+import "react-alice-carousel/lib/alice-carousel.css";
 import Layout from './components/Layout/Layout';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -7,6 +8,7 @@ import About from './components/About/About';
 import Services from './components/ServicesSection/Services';
 import Experience from './components/Experience/Experience';
 import Consultation from './components/Consultation/Consultation';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
         <About />
         <Services />
         <Experience />
-        <Consultation/>
+        <Consultation />
+        <Projects/>
       </Layout>
     </div>
   );
