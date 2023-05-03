@@ -29,7 +29,12 @@ const Footer = () => {
               <label htmlFor="input" className={styles.label}>
                 Your email here
               </label>
-              <input type="text" className={styles.input} id="input" />
+              <input
+                type="text"
+                className={styles.input}
+                id="input"
+                tabindex="0"
+              />
             </div>
             <button type="submit" className={styles.formBtn}>
               Subscribe

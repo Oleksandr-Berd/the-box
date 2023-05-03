@@ -62,15 +62,21 @@
     color:#A3AAC2
 }
 
+
+
 .input {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 145px;
+  padding-left: 8px;
   margin-right: 8px;
 
   font-size: 18px;
   border: 1px solid #e0e3eb;
   border-radius: 4px;
+}
+
+.inputCon:hover .label{
+ transform: translateY(-100%);
 }
 
 .formBtn{
