@@ -9,6 +9,7 @@ import Services from './components/ServicesSection/Services';
 import Experience from './components/Experience/Experience';
 import Consultation from './components/Consultation/Consultation';
 import Projects from './components/Projects/Projects';
+import FeedBack from './components/FeedBack/FeedBack';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <Services />
         <Experience />
         <Consultation />
-        <Projects/>
+        <Projects />
+        <FeedBack/>
       </Layout>
     </div>
   );
