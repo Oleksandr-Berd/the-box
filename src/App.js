@@ -10,6 +10,7 @@ import Experience from './components/Experience/Experience';
 import Consultation from './components/Consultation/Consultation';
 import Projects from './components/Projects/Projects';
 import FeedBack from './components/FeedBack/FeedBack';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Experience />
         <Consultation />
         <Projects />
-        <FeedBack/>
+        <FeedBack />
+        <Footer/>
       </Layout>
     </div>
   );
