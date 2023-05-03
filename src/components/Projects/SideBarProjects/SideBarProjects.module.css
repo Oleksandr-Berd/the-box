@@ -1,0 +1,57 @@
+.asideBar {
+  text-align: left;
+}
+
+.asideBarTitle {
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #292e3d;
+}
+
+.asideBarItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.asideNavBarBtn {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  color: #c2c7d6;
+  background-color: #fff;
+  border: none;
+}
+
+.asideBarItem:hover .asideNavBarBtn,
+.asideBarItem:focus .asideNavBarBtn {
+  color: #2947a9;
+  cursor: pointer;
+}
+
+.active {
+position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+  color: #2947a9;
+  background-color: #fff;
+  border: none;
+}
+
+.active::before {
+position: absolute;
+top: 0;
+left: 0;
+
+transform: translateX(-16px);
+
+  content: url(../../../utilities/images/Rectangle\ 17.png);
+  margin-right: 16px;
+}

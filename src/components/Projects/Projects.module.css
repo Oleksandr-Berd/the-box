@@ -1,0 +1,7 @@
+.projectsSec{
+    display: flex;
+    flex-direction: row;
+    padding-top: 88px;
+    padding-bottom: 138px;
+    padding-left: 112px;
+}
