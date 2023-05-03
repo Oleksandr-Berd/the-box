@@ -1,6 +1,7 @@
 import styles from "./Hero.module.css";
 
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+import back from "../../utilities/images/backCar.png";
+import next from "../../utilities/images/nextCar.png";
 
 const Hero = () => {
   return (
@@ -14,12 +15,12 @@ const Hero = () => {
         </div>
         <div className={styles.btnCon}>
           <button className={styles.heroBtn}>
-            <AiOutlineArrowLeft />
-            Back
+            <img src={back} alt="" />
+            <span style={{ marginLeft: "10px" }}> Back</span>
           </button>
           <button className={styles.heroBtn}>
-            Next
-            <AiOutlineArrowRight />
+            <span style={{ marginRight: "10px" }}>Next</span>
+            <img src={next} alt="" />
           </button>
         </div>
       </div>

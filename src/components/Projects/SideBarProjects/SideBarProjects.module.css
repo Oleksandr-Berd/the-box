@@ -16,28 +16,32 @@
 }
 
 .asideNavBarBtn {
-      display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 24px;
   color: #c2c7d6;
   background-color: #fff;
   border: none;
+
+  transition: color 250ms linear;
 }
 
 .asideBarItem:hover .asideNavBarBtn,
 .asideBarItem:focus .asideNavBarBtn {
   color: #2947a9;
   cursor: pointer;
+
+  transition: color 250ms linear;
 }
 
 .active {
-position: relative;
+  position: relative;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 24px;
   color: #2947a9;
@@ -46,11 +50,11 @@ position: relative;
 }
 
 .active::before {
-position: absolute;
-top: 0;
-left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 
-transform: translateX(-16px);
+  transform: translateX(-16px);
 
   content: url(../../../utilities/images/Rectangle\ 17.png);
   margin-right: 16px;
