@@ -31,30 +31,29 @@ const items = [
   },
 ];
 
-const validList = () => {
-    
-}
 
 const Carousel = ({criteria}) => {
   return (
-      <div className={styles.carouselCon}>
-          
+    <div className={styles.carouselCon}>
       <ul className={styles.gridCon}>
-              {items.filter((el) => {
-                  if (criteria === "all") {
-                  return el
-              }return el.data === criteria})
-              .map(el => (
-          <li key={el.id} className={styles.carouselItemCon}>
-            {" "}
-            <img
-              src={el.src}
-              alt={el.data}
-              data={el.data}
-              className={styles.carouseItemImg}
-            />
-          </li>
-        ))}
+        {items
+          .filter((el) => {
+            if (criteria === "all") {
+              return el;
+            }
+            return el.data === criteria;
+          })
+          .map((el) => (
+            <li key={el.id} className={styles.carouselItemCon}>
+              {" "}
+              <img
+                src={el.src}
+                alt={el.data}
+                data={el.data}
+                className={styles.carouseItemImg}
+              />
+            </li>
+          ))}
       </ul>
       <div className={styles.carouselBtnCon}>
         <button className={styles.carouselBarBtn}>
@@ -63,7 +62,7 @@ const Carousel = ({criteria}) => {
           <span style={{ marginLeft: "10px" }}> Back</span>
         </button>
         <ul className={styles.carBarList}>
-          <li className={styles.carBarItem}></li>
+          <li className={styles.activeItem}></li>
           <li className={styles.carBarItem}></li>
           <li className={styles.carBarItem}></li>
           <li className={styles.carBarItem}></li>
