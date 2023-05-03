@@ -1,0 +1,88 @@
+.carouseItemImg {
+  width: 384px;
+}
+
+.gridCon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.carouselBtnCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.carouselBarBtn {
+  display: flex;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-right: 108px;
+  padding-left: 108px;
+
+  font-size: 18px;
+  line-height: 1.17;
+  background-color: #292e3d;
+  color: #fff;
+}
+
+.carBarList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 33px;
+  margin-left: 33px;
+}
+
+.carBarItem {
+  width: 16px;
+  height: 16px;
+
+  background-color: #f6f8f7;
+  border-radius: 50%;
+}
+
+.carBarItem:not(:last-child) {
+  margin-right: 16px;
+}
+
+.activeItem {
+  width: 16px;
+  height: 16px;
+  margin-right: 16px;
+
+  background-color: #2947a9;
+  border-radius: 50%;
+}
+
+.carouselItemCon{
+  background-color: #2947a9;
+
+}
+
+.textCon {
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 16px;
+
+  text-align: left;
+  background-color: #2947a9;
+  color: #fff;
+  border: none;
+}
+
+.textTitle {
+  margin-bottom: 12px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+.textAddress{
+    font-size: 18px;
+    font-style: normal;
+}
