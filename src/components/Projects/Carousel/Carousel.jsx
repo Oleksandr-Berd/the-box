@@ -12,7 +12,7 @@ const items = [
   {
     id: 1,
     src: img1,
-    data: "others",
+    data: "other",
   },
   {
     id: 2,
@@ -27,15 +27,24 @@ const items = [
   {
     id: 4,
     src: img4,
-    data: "others",
+    data: "other",
   },
 ];
 
-const Carousel = () => {
+const validList = () => {
+    
+}
+
+const Carousel = ({criteria}) => {
   return (
-    <div className={styles.carouselCon}>
+      <div className={styles.carouselCon}>
+          
       <ul className={styles.gridCon}>
-        {items.map((el) => (
+              {items.filter((el) => {
+                  if (criteria === "all") {
+                  return el
+              }return el.data === criteria})
+              .map(el => (
           <li key={el.id} className={styles.carouselItemCon}>
             {" "}
             <img
